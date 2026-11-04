@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Jupyter IDE",
+      "hasCanvas": false,
+      "bodyTextLen": 497,
+      "bodyTextHash": "5322442d8034c46871e96342321e0e2f38de6b2a0788fc1c040d9d9ed47f40f7",
+      "bodyTextPrefix": "◉ Jupyter IDE Untitled Code MD Ready CODE Fast boot: only stdlib",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Jupyter IDE",
+      "hasCanvas": false,
+      "bodyTextLen": 497,
+      "bodyTextHash": "5322442d8034c46871e96342321e0e2f38de6b2a0788fc1c040d9d9ed47f40f7",
+      "bodyTextPrefix": "◉ Jupyter IDE Untitled Code MD Ready CODE Fast boot: only stdlib",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

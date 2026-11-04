@@ -1,0 +1,399 @@
+{
+  "sha": "bd21ba71ddadc357cf33d2c2886fc959b2106b8b",
+  "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/bd21ba71ddadc357cf33d2c2886fc959b2106b8b",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6ed0d31d18d0c50089e86a1c78c99ecf43f1fea",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/c6ed0d31d18d0c50089e86a1c78c99ecf43f1fea"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57fc13c7353ae643c528683cd7a8d42bf9fb8906",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/57fc13c7353ae643c528683cd7a8d42bf9fb8906"
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f8a1e6eb267781febbd0dc8bd49d5de46072224",
+      "size": 841,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/4f8a1e6eb267781febbd0dc8bd49d5de46072224"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "554ba60a27e31b9c4a928fbd12a5975052f3a274",
+      "size": 182,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/554ba60a27e31b9c4a928fbd12a5975052f3a274"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "659317fefa2031667b891fe5968c8c5c3f7feda7",
+      "size": 1078,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/659317fefa2031667b891fe5968c8c5c3f7feda7"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b85328b591641a53282ace9876746678a1785d1c",
+      "size": 1019,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/b85328b591641a53282ace9876746678a1785d1c"
+    },
+    {
+      "path": "app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9f6a929cede1b03906c8c27508dbb31d5696fc4",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/c9f6a929cede1b03906c8c27508dbb31d5696fc4"
+    },
+    {
+      "path": "app/build.gradle",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38c97b3e2e7228faae14bcc5299ede91e7ffa065",
+      "size": 1117,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/38c97b3e2e7228faae14bcc5299ede91e7ffa065"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d4195c8ccdc79a4b0d54672b85c2567b8b1c94d",
+      "size": 132,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/3d4195c8ccdc79a4b0d54672b85c2567b8b1c94d"
+    },
+    {
+      "path": "app/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f77860029f463483b8ed9b9874d597fe8f5e60ae",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/f77860029f463483b8ed9b9874d597fe8f5e60ae"
+    },
+    {
+      "path": "app/src/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d95d97e7663378086a735b2f91b55053389a87c",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/2d95d97e7663378086a735b2f91b55053389a87c"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb6350bdfdee2167d17660b418a87e20c2840447",
+      "size": 2049,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/cb6350bdfdee2167d17660b418a87e20c2840447"
+    },
+    {
+      "path": "app/src/main/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8006a8c15d8315d69983efd8d00dc0ecb5f1515f",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/8006a8c15d8315d69983efd8d00dc0ecb5f1515f"
+    },
+    {
+      "path": "app/src/main/assets/www",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e907437eec29c764f66813271ec9942ab48bb960",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/e907437eec29c764f66813271ec9942ab48bb960"
+    },
+    {
+      "path": "app/src/main/assets/www/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9904015ec1a031e19e42f08fec1268ec18e5a5c",
+      "size": 67697,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/d9904015ec1a031e19e42f08fec1268ec18e5a5c"
+    },
+    {
+      "path": "app/src/main/assets/www/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd35094024cfe34a084388b23eacf68e3f4f20b",
+      "size": 11130,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/8cd35094024cfe34a084388b23eacf68e3f4f20b"
+    },
+    {
+      "path": "app/src/main/assets/www/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "378554a194fd879386cb82da0c3f0e2d91e7ef64",
+      "size": 20672,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/378554a194fd879386cb82da0c3f0e2d91e7ef64"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c94bb76f188bc35fc8b5f05e21dd5cb9e802b2b7",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/c94bb76f188bc35fc8b5f05e21dd5cb9e802b2b7"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91b5e1fa2444c1fac03bf4125d36eac921159f15",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/91b5e1fa2444c1fac03bf4125d36eac921159f15"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/addon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad55e23c3dfa04a6e9b0df861e8ab6250184d1fb",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/ad55e23c3dfa04a6e9b0df861e8ab6250184d1fb"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/addon/edit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3f23a88eac74db9d3667f51c283fe3b30f0c599",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/f3f23a88eac74db9d3667f51c283fe3b30f0c599"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/addon/edit/closebrackets.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5bb3ecd28fee732f2ebdd7606b6bbc961573adb",
+      "size": 3523,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/f5bb3ecd28fee732f2ebdd7606b6bbc961573adb"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/addon/edit/matchbrackets.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3dc955f99046d33a35fc2bb95665a614f909c1d",
+      "size": 3096,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/a3dc955f99046d33a35fc2bb95665a614f909c1d"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/addon/hint",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "211f53f4e7c7a4357a5fbe41b65a02fb9aa34c6c",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/211f53f4e7c7a4357a5fbe41b65a02fb9aa34c6c"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/addon/hint/show-hint.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5e651c39ecceaa13073ac9813fbcbf8a0f6b334",
+      "size": 528,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/b5e651c39ecceaa13073ac9813fbcbf8a0f6b334"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/addon/hint/show-hint.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a9cc99ceb5722461ca6d97383f951847e2f43c5",
+      "size": 10581,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/9a9cc99ceb5722461ca6d97383f951847e2f43c5"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a55ac39de31c30a7a2365fe553e96ffde31187dc",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/a55ac39de31c30a7a2365fe553e96ffde31187dc"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/lib/codemirror.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef25eaa5e7dfad52e6b3439ff2090906abffe23",
+      "size": 6037,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/2ef25eaa5e7dfad52e6b3439ff2090906abffe23"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/lib/codemirror.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c78bd4648bbcd23aac6508855c4e7364d0142e6",
+      "size": 170535,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/9c78bd4648bbcd23aac6508855c4e7364d0142e6"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/mode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b3b517b5d8c086979e333ff40be72d13ed0a37c",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/9b3b517b5d8c086979e333ff40be72d13ed0a37c"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/mode/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90e063448b32d18b63da8191e044f01cf05d373c",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/90e063448b32d18b63da8191e044f01cf05d373c"
+    },
+    {
+      "path": "app/src/main/assets/www/vendor/codemirror/mode/python/python.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97d92ec0a313413fb0b0e5f05f14a735025aefb4",
+      "size": 6500,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/97d92ec0a313413fb0b0e5f05f14a735025aefb4"
+    },
+    {
+      "path": "app/src/main/java",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8da68a240adf2b8f18b6801d8d5747441a1c0c7d",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/8da68a240adf2b8f18b6801d8d5747441a1c0c7d"
+    },
+    {
+      "path": "app/src/main/java/com",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52c2389e0ddb398b50cff02ed2f4e3cb49192023",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/52c2389e0ddb398b50cff02ed2f4e3cb49192023"
+    },
+    {
+      "path": "app/src/main/java/com/lifechange",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac362e574bd66b8c1f4912507336bba13bd31354",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/ac362e574bd66b8c1f4912507336bba13bd31354"
+    },
+    {
+      "path": "app/src/main/java/com/lifechange/jupyteride",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e080781ea455d0967992c37fbbeb0167540c924",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/0e080781ea455d0967992c37fbbeb0167540c924"
+    },
+    {
+      "path": "app/src/main/java/com/lifechange/jupyteride/MainActivity.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "024287f4e94cc0e6ef180acad1b55b468211621c",
+      "size": 36490,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/024287f4e94cc0e6ef180acad1b55b468211621c"
+    },
+    {
+      "path": "app/src/main/res",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b499b0973aa8cfc9a1f4560c41bdca9839259865",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/b499b0973aa8cfc9a1f4560c41bdca9839259865"
+    },
+    {
+      "path": "app/src/main/res/drawable",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f7d2a82ab24558a1cc1ab4bd159a9750621396b",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/1f7d2a82ab24558a1cc1ab4bd159a9750621396b"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25260bdf4bb2dffc1ccd015e861c49f0f1c49480",
+      "size": 152,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/25260bdf4bb2dffc1ccd015e861c49f0f1c49480"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "168759ca7ab9d34b230e3ec6a31377f12b1d513c",
+      "size": 884,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/168759ca7ab9d34b230e3ec6a31377f12b1d513c"
+    },
+    {
+      "path": "app/src/main/res/layout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "787d7146ad319975f3c9b501068c9b24b57d9a39",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/787d7146ad319975f3c9b501068c9b24b57d9a39"
+    },
+    {
+      "path": "app/src/main/res/layout/activity_main.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ee3233c0a9cc663550fa5d6f865fe49d4a09aa4",
+      "size": 585,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/0ee3233c0a9cc663550fa5d6f865fe49d4a09aa4"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb520fd6d6d318b166fab126a887cb7e084042be",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/bb520fd6d6d318b166fab126a887cb7e084042be"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d378acd7ac991213513686c290aa05550f1cc70d",
+      "size": 271,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/d378acd7ac991213513686c290aa05550f1cc70d"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d378acd7ac991213513686c290aa05550f1cc70d",
+      "size": 271,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/d378acd7ac991213513686c290aa05550f1cc70d"
+    },
+    {
+      "path": "app/src/main/res/values",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "586203c893117281182228f870b77d59680257bb",
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/trees/586203c893117281182228f870b77d59680257bb"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d77b2bdd16b3caadf0063c7fc2aed59f50e80504",
+      "size": 113,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/d77b2bdd16b3caadf0063c7fc2aed59f50e80504"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2bad11404e8190845ac45fb652a5fd131ca5735",
+      "size": 387,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/c2bad11404e8190845ac45fb652a5fd131ca5735"
+    },
+    {
+      "path": "build.gradle",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b7ccba7c566afb5057eaea1b10b99b083851fe4",
+      "size": 73,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/5b7ccba7c566afb5057eaea1b10b99b083851fe4"
+    },
+    {
+      "path": "gradle.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e157fc88f795c9c2ee69dfced6f36921a56e3b12",
+      "size": 155,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/e157fc88f795c9c2ee69dfced6f36921a56e3b12"
+    },
+    {
+      "path": "settings.gradle",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "564d8b388c0f3c35df38c040c4ec3031d9fec045",
+      "size": 328,
+      "url": "https://api.github.com/repos/lifechange5554321-svg/JupyterIDE/git/blobs/564d8b388c0f3c35df38c040c4ec3031d9fec045"
+    }
+  ],
+  "truncated": false
+}
