@@ -24,27 +24,54 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Install dependencies
+      - name: Install
         run: npm install --legacy-peer-deps
 
       - name: Build web
-        run: npx vite build
-
-      - name: Ensure dist exists
-        run: test -d dist
-
-      - name: Install Capacitor
-        run: npm install --no-save --legacy-peer-deps @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7
-
-      - name: Create Android project
         run: |
+          set +e
+          npx vite build 2>&1 | tee build.log
+          echo "===== dirs ====="
+          find . -maxdepth 3 -type d ! -path './node_modules*' ! -path './.git*' | sort
+          echo "===== index.html ====="
+          find . -name 'index.html' ! -path './node_modules*' ! -path './.git*' | head -40
+
+      - name: Pick web dir for Capacitor
+        id: web
+        run: |
+          if [ -d dist ] && [ -f dist/index.html ]; then
+            echo "dir=dist" >> "$GITHUB_OUTPUT"
+          elif [ -d .output/public ] && [ -f .output/public/index.html ]; then
+            echo "dir=.output/public" >> "$GITHUB_OUTPUT"
+          elif [ -d dist/client ] && [ -f dist/client/index.html ]; then
+            echo "dir=dist/client" >> "$GITHUB_OUTPUT"
+          elif [ -d build ] && [ -f build/index.html ]; then
+            echo "dir=build" >> "$GITHUB_OUTPUT"
+          else
+            echo "No static web output with index.html"
+            exit 1
+          fi
+          echo "Selected: $(grep dir= "$GITHUB_OUTPUT")"
+
+      - name: Point Capacitor webDir
+        env:
+          WEB: ${{ steps.web.outputs.dir }}
+        run: |
+          echo "Using webDir=$WEB"
+          node -e '
+            const fs = require("fs");
+            const p = "capacitor.config.json";
+            const j = JSON.parse(fs.readFileSync(p, "utf8"));
+            j.webDir = process.env.WEB;
+            fs.writeFileSync(p, JSON.stringify(j, null, 2));
+            console.log(j);
+          '
+
+      - name: Capacitor + APK
+        run: |
+          npm install --no-save --legacy-peer-deps @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7
           if [ ! -d android ]; then npx cap add android; fi
-
-      - name: Sync
-        run: npx cap sync android
-
-      - name: Build APK
-        run: |
+          npx cap sync android
           cd android
           chmod +x gradlew
           ./gradlew assembleDebug
