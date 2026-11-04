@@ -1,0 +1,5 @@
+{
+  "appId": "com.lifechange.myjupyter",
+  "appName": "My Jupyter",
+  "webDir": "dist"
+}
